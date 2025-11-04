@@ -12,7 +12,8 @@ public interface ProductMapper {
     ProductMapper INSTANCE = Mappers.getMapper(ProductMapper.class);
 
     Product toDomain(ProductEntity productEntity);
-
+    //prueba123456
+    //prueba
     ProductEntity toEntity(Product product);
 
     default Product toDomainWithUser(ProductEntity productEntity, User user){
